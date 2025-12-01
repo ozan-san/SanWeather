@@ -113,7 +113,7 @@ fun WeatherScreen(viewModel: MainViewModel = hiltViewModel()) {
                     )
                     Spacer(modifier = Modifier.height(16.dp))
                     Text(
-                        text = "${state.temperature}°Cels",
+                        text = "${state.temperature}°Celsius",
                         style = MaterialTheme.typography.displayMedium,
                         fontSize = 48.sp
                     )
